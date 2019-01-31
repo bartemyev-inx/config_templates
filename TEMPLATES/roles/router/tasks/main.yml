@@ -1,0 +1,6 @@
+---
+- name: Generate configuration files
+  template: src=router.j2 dest=/home/gituser/ANSIBLE/CFGS/{{item.hostname}}.txt
+  with_items: 
+  - { hostname: rtr01-10hy }
+  - { hostname: rtr02-10hy }
