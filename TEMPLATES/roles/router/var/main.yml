@@ -1,0 +1,7 @@
+---
+test_routers:
+   - { hostname: rtr01-10ny-test }
+   - { hostname: rtr02-10hy-test }
+   - { hostname: rtr03-10hy-test }
+   - { hostname: rtr04-10hy-test }
+   - { hostname: rtr05-10hy-test }
